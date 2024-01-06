@@ -1,0 +1,119 @@
+:root{
+    --primary-color:#6495ED;
+    --while-color: #fff;
+    --black-color:#000;
+    --text-color: #333;
+    --desreption-text:#888;
+    --border-color: #dbdbdb;
+    --header-height:120px;
+    --header-navbar:33px;
+    --header-with-search-height: calc() ;
+    --hover-color:rgb(25, 150, 169);
+}
+body {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.admin-list {
+    list-style: none;
+    display: flex;
+    padding: 30px;
+    background-color: #f5f5f5;
+    justify-content: space-around;
+    border-bottom: 1px solid #ccc;
+    margin-top: 0;
+}
+.navbar-admin {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+.admin-logout{
+    margin-left: 10px;
+    text-decoration: none;
+}
+.navbar-admin-icon{
+    margin-right: 4px;
+}
+.admin-list a {
+    font-size: 20px;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--black-color);
+    font-weight: 600;
+}
+
+.section-header{
+    text-align: center;
+    font-size: 20px;
+}
+.custom-table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto; /* Để căn giữa bảng */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-table, .custom-table th, .custom-table td {
+    border: 1px solid #12A6DC;
+}
+
+.custom-table th, .custom-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.custom-table th {
+    background-color: #12A6DC;
+    color: #fff;
+}
+
+.form-container {
+    margin: 0 auto; /* Để căn giữa form */
+    text-align: center; /* Để căn giữa nút submit */
+}
+.input-field{
+    width: 94%;
+}
+.input-field, .submit-btn {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #12A6DC;
+    border-radius: 5px;
+  
+}
+
+.submit-btn {
+    background-color: #12A6DC;
+    color: #fff;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0E88B8;
+}
+
+.list-table th {
+    /* Đặt các thuộc tính chung cho bảng "liệt kê danh mục sản phẩm" */
+    background-color: #12A6DC;
+    color: #fff;
+}
+
+.list-table a {
+    color: #12A6DC;
+    text-decoration: none;
+}
+
+.list-table a:hover {
+    text-decoration: underline;
+}
